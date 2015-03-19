@@ -27,5 +27,5 @@ def caesar_cipher(input, shift_num)
   output_bytes.pack('c*')
 end
 
-puts caesar_cipher("Andrej is loving Ruby!", 10)
+puts caesar_cipher("Andrej is loving Ruby!", 10) # ==> Kxnkot sk vyksxq Kklk!
 
